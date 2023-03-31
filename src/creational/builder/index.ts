@@ -7,3 +7,4 @@ const meat = new Meat('Carne', 20);
 const mealBox = new MealBox();
 mealBox.add(rice, beans, meat);
 console.log(mealBox);
+console.log(mealBox.getPrice());
